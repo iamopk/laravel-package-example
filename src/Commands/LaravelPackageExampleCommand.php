@@ -12,7 +12,7 @@ class LaravelPackageExampleCommand extends Command
 
     public function handle(): int
     {
-        $this->comment('All done');
+        $this->comment('All done' . config('package-example.aaa'));
 
         return self::SUCCESS;
     }
