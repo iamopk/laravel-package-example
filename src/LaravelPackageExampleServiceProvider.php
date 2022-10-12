@@ -2,9 +2,9 @@
 
 namespace Iamopk\LaravelPackageExample;
 
+use Iamopk\LaravelPackageExample\Commands\LaravelPackageExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Iamopk\LaravelPackageExample\Commands\LaravelPackageExampleCommand;
 
 class LaravelPackageExampleServiceProvider extends PackageServiceProvider
 {
