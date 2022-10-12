@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "iamopk/laravel-package-example",
+    "description": "This is my package laravel-package-example",
     "keywords": [
-        ":vendor_name",
+        "iamopk",
         "laravel",
-        ":package_slug"
+        "laravel-package-example"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/iamopk/laravel-package-example",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "iamopk",
+            "email": "iam@iam.iam",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Iamopk\\LaravelPackageExample\\": "src",
+            "Iamopk\\LaravelPackageExample\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Iamopk\\LaravelPackageExample\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Iamopk\\LaravelPackageExample\\LaravelPackageExampleServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelPackageExample": "Iamopk\\LaravelPackageExample\\Facades\\LaravelPackageExample"
             }
         }
     },
